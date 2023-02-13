@@ -1,0 +1,26 @@
+.rowNumber::before{
+    counter-increment: rowNumber;
+    content: counter(rowNumber)".";
+    padding-left: 50px;
+    padding-right: 50px;
+}
+table{
+    counter-reset: rowNumber;
+}
+table,th,td{
+    border: solid violet 1px;
+    border-collapse: collapse;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+th{
+    color: white;
+    background-color: #CC6600;
+}
+.column1{
+    width: 70px;
+}
+
+tr:nth-child(odd){
+    background-color: #FFEDCA;
+}
