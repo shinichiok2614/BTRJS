@@ -1,0 +1,26 @@
+table, tr,th{
+    border: 1px solid;
+    border-collapse: collapse;
+}
+.row1{
+    background-color: red;
+    color:white;
+    border-color: black;
+    text-align: right;
+    height: 60px;
+}
+.row2{
+    color:red;
+    background-color: #FFBBBB;
+    height: 40px;
+}
+.row3{
+    text-align: left;
+}
+.title1{
+    color: red;
+}
+.img{
+    padding: 5px 20px;
+    width: 70px;
+}
