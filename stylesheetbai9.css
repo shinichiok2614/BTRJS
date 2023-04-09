@@ -1,0 +1,25 @@
+th,tr,table{
+    border: 1px solid red;
+    border-collapse: collapse;
+}
+table{
+    width: 100%;
+}
+th{
+    width: 30%;
+}
+.dataredcolumn1{
+    color:red;
+    text-align: left;
+}
+.datacolumn2{
+    text-align: left;
+}
+.title{
+    background-color: #CC0033;
+    color: white;
+}
+.datatit{
+    color: #CC0033;
+    text-align: center;
+}
