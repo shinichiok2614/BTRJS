@@ -45,3 +45,5 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
     <App />
   </React.StrictMode>
 );
+
+c chạy thêm: yarn add @types/node @types/vite
